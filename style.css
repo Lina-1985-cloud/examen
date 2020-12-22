@@ -1,0 +1,205 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    overflow: hidden;
+}
+.contenedor{
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100wh;
+    height: 100vh;
+}
+.contenedor::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+.contenedor .fondo{
+    background-image: url(/img/la_ceja.jpg);
+    background-repeat: no-repeat;
+    width: 50vw;
+    height: 100vh;
+}
+.logo{
+    padding: 25px;
+}
+header{
+    align-items: flex-start;
+    background: #040f0f;
+    width: 50vw;
+    height: 100vh
+}
+.menu{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    
+}
+ul{
+    display: none;
+    margin-top:0;
+    padding: 0;
+    width: 480px;
+    
+}
+input:checked  ~ ul{
+    display:block;
+    background: lightgrey; 
+   
+}
+input {
+    display: none;
+}
+label{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  z-index: 3;
+  line-height: 30px;
+  font-weight: bold;
+  text-align: center;
+  user-select: none;
+  margin-top: 20px;
+  margin-right: 20px;
+
+}
+
+label i{
+    font-size: 40px;
+    color: #fff;
+}
+li {
+  display: block;
+  background:#48484b;
+  margin:0;
+  padding:25px;
+  list-style: none;
+  border-bottom: 1px solid #040f0f;
+}
+li:hover {
+    border-bottom: 1px solid #a2d45e;
+    background: rgb(94, 92, 92);
+ }
+ li a:hover{
+     color: white;
+ }
+ li a{
+     text-decoration: none;
+     font-family: 'Lato', sans-serif;
+     color: white;
+     font-size: 20px;
+     font-weight: 900;
+ }
+
+
+ .redes{
+     display: flex;
+     flex-flow: row wrap;
+     justify-content:flex-start;
+     align-items: center;
+     background-color:#2a2d34;
+     height: 300px;
+ }
+ .redes i{
+     font-size: 28px;
+     margin-top: 60px;
+     margin-right: 20px;
+     margin-left: 10px;
+
+ }
+ .fa-facebook{
+     color: #4d6baa;
+ }
+ .fa-envelope{
+     color: #ff0000;
+ }
+ .fa-instagram-square{
+     color: #c13584;
+
+ }
+ .fa-github{
+     color: #f5f5f5;
+ }
+ .contactos{
+     display: flex;
+     flex-flow: row wrap;
+     justify-content: space-between;
+     align-items: center;
+     border-left: 2px solid #a2d45e;
+     margin-left: 20px;
+
+ }
+ .contactos p{
+     font-size: 15px;
+     margin: 8px;
+     margin-left: 20px;
+     margin-right: 90px;
+     color: white;
+ }
+ .foto-perfil img{
+     border-radius: 50px;
+ }
+ header{
+     display: flex;
+     flex-flow: row-reverse;
+     justify-content: space-between;
+     align-items: flex-start;
+ }
+ h1{
+   font-family: 'Lato', sans-serif;
+   font-size: 100px;
+   margin-bottom: 8px;
+ }
+ h1 span{
+    font-family: 'Amatic SC', cursive;
+    color: #a2d45e;
+ }
+ .reseña{
+     display: flex;
+     flex-flow: row wrap;
+     justify-content:center;
+     align-items:center;
+     text-align: justify;
+     margin-top: 70px;
+     width: 90%;
+ }
+ .reseña p{
+     font-size: 18px;
+     font-weight: 300;
+ }
+ h3{
+     margin-bottom: 20px;
+     font-size: 30px;
+ }
+ h3 span{
+     color: #a2d45e;
+     font-family: 'Amatic SC', cursive;
+    
+ }
+.info{
+    /* text-align: center; */
+    margin-top: 150px;
+    width: 700px;
+    padding: 2px;
+    position: relative;
+    z-index: 1;
+ }
+
+
+
+  
