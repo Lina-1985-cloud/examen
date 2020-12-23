@@ -1,6 +1,6 @@
 ### Examen Plataforma 39A 🚀
 
-> El mayor riesgo es no asumir ningún riesgo. En un mundo que cambia realmente rápido, la única estrategia en la que el fracaso está garantizado es no asumir riesgos (Mark Zuckerberg. Fundador de Facebook)El mayor riesgo es no asumir ningún riesgo. En un mundo que cambia realmente rápido, la única estrategia en la que el fracaso está garantizado es no asumir riesgos (Mark Zuckerberg. Fundador de Facebook).
+ <i> "El mayor riesgo es no asumir ningún riesgo. En un mundo que cambia realmente rápido, la única estrategia en la que el fracaso está garantizado es no asumir riesgos (Mark Zuckerberg. Fundador de Facebook)El mayor riesgo es no asumir ningún riesgo. En un mundo que cambia realmente rápido, la única estrategia en la que el fracaso está garantizado es no asumir riesgos (Mark Zuckerberg. Fundador de Facebook)." </i>
 
 <div>
     <img src="/img/LOGO_TURISMO-01.png" width="300px" alt="">
