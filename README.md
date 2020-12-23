@@ -6,6 +6,9 @@
     <img src="/img/LOGO_TURISMO-01.png" width="300px" alt="">
 </div>
 
+<div>
+    <img src="/img/la_ceja2.jpg" width="300px" alt="">
+</div>
 
 Con este examen cerramos una etapa más,  utilizando **flex-box**, realizamos una página inspirada en el lugar dónde vivimos, y siguiendo estrictamente los requerimientos del profesor, gabriel.diaz_arg; quien nos inspira a seguir trabajando duro para alcanzar nuestras metas.
 
